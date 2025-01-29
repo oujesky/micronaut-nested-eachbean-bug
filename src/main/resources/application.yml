@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: micronaut-nested-eachbean-bug
+
+config:
+  outers:
+    outer-a:
+      inners:
+        inner-a:
+          value: true
+        inner-b:
+          value: false
