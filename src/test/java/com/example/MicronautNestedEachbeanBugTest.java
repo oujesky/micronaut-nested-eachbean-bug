@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@MicronautTest(startApplication = false)
+@MicronautTest(startApplication = false, rebuildContext = true)
 class MicronautNestedEachbeanBugTest {
 
     @Inject
